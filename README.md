@@ -30,15 +30,15 @@ Black-Scholes Partial Differential Equation:
 
 Forward approximation for the derivative:<img src="http://latex.codecogs.com/gif.latex?f'(x)=\frac{f(x+h)-f(x)}{h}+O(h) " />
 
-Forward approximation for partial derivative:<img src="http://latex.codecogs.com/gif.latex? \frac{\partial \phi}{\partial t}=\frac{\phi_{i,j+1} -\phi_{i,j}}{dt}" />
+Forward approximation for partial derivative:<img src="http://latex.codecogs.com/gif.latex? \frac{\partial\phi}{\partial t}=\frac{\phi_{i,j+1} -\phi_{i,j}}{dt}" />
 
 Backward approximation for the derivative:<img src="http://latex.codecogs.com/gif.latex? f'(x)=\frac{f(x)-f(x-h)}{h}+O(h)" />
 
-Backward approximation for partial derivative:$$<img src="http://latex.codecogs.com/gif.latex?\frac{\partial \phi}{\partial t}=\frac{\phi_{i,j} -\phi_{i,j-1}}{dt} " />
+Backward approximation for partial derivative:<img src="http://latex.codecogs.com/gif.latex?\frac{\partial \phi}{\partial t}=\frac{\phi_{i,j} -\phi_{i,j-1}}{dt} " />
 
-Central approximation for the derivative:$$<img src="http://latex.codecogs.com/gif.latex? f'(x)=\frac{f(x+h)-f(x-h)}{2h}+O(h^2)" />
+Central approximation for the derivative:<img src="http://latex.codecogs.com/gif.latex? f'(x)=\frac{f(x+h)-f(x-h)}{2h}+O(h^2)" />
 
-Central approximation for partial derivative: $$<img src="http://latex.codecogs.com/gif.latex? \frac{\partial \phi}{\partial t}=\frac{\phi_{i,j+1} -\phi_{i,j-1}}{2dt}" />
+Central approximation for partial derivative: <img src="http://latex.codecogs.com/gif.latex? \frac{\partial \phi}{\partial t}=\frac{\phi_{i,j+1} -\phi_{i,j-1}}{2dt}" />
 
 Second-order derivatives approximation:<img src="http://latex.codecogs.com/gif.latex?f''(x)=\frac{f(x+h)-2f(x)+f(x-h)}{h^2}+O(h^2)" />
 
