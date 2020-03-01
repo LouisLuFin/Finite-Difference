@@ -58,9 +58,9 @@ Represent the equation with matrix multiplication we get
 
 $$\boldsymbol{\Phi_{j+1}}=\boldsymbol A\boldsymbol{\Phi_j}+\rho \boldsymbol g_j,	j=0,1,2 \cdots$$
 
- where $ \boldsymbol A \in R^{N-1,N-1}$
+ where $ \boldsymbol A \in R^{N-1,N-1}$,
 
-$$\boldsymbol A=\left[\begin{matrix}1-2\rho&\rho&0&\cdots&0&0\\\rho&1-2\rho& \rho& \cdots&0&0\\0 &\rho&1-2\rho &\cdots&0&0\\\vdots&\vdots&\vdots&\ddots&\vdots&\vdots&\\0&0&0&\cdots&\rho&1-2\rho\end {matrix} \right]$$ $$\boldsymbol {\Phi_j}=\left[\begin{matrix}\phi_{1,j}\\\phi_{2,j}\\\vdots\\\phi_{N-1,j}\end {matrix} \right]$$,$$\boldsymbol {g_j}=\left[\begin{matrix}f_{0,j}\\0\\\vdots\\f_{N,j}\end {matrix} \right]$$
+$$\boldsymbol A=\left[\begin{matrix}1-2\rho&\rho&0&\cdots&0&0\\\rho&1-2\rho& \rho& \cdots&0&0\\0 &\rho&1-2\rho &\cdots&0&0\\\vdots&\vdots&\vdots&\ddots&\vdots&\vdots&\\0&0&0&\cdots&\rho&1-2\rho\end {matrix} \right]$$ ,$$\boldsymbol {\Phi_j}=\left[\begin{matrix}\phi_{1,j}\\\phi_{2,j}\\\vdots\\\phi_{N-1,j}\end {matrix} \right]$$,$$\boldsymbol {g_j}=\left[\begin{matrix}f_{0,j}\\ 0 \\\vdots\\f_{N,j}\end {matrix} \right]$$
 
 Stability analysis shows that the explicit method is stable when $||\boldsymbol A ||_\infty\leq1$.
 
