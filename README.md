@@ -18,11 +18,11 @@ Author: Ruinan Lu
 
 A dimensionless form of Heat Equation is:
 
-![](http://latex.codecogs.com/gif.latex?\\\frac {\partial \phi}{\partial t}=\frac{\partial^2 \phi}{\partial x^2})
+$$\frac {\partial \phi}{\partial t}=\frac{\partial^2 \phi}{\partial x^2}$$
 
 Black-Scholes Partial Differential Equation:
 
-![](http://latex.codecogs.com/gif.latex?\\\frac{\partial V}{\partial t}+rS\frac{\partial V}{\partial S}+\frac{1}{2}\sigma^2 S^2 \frac{\partial^2 V}{\partial S^2}=rV)
+$$\frac{\partial V}{\partial t}+rS\frac{\partial V}{\partial S}+\frac{1}{2}\sigma^2 S^2 \frac{\partial^2 V}{\partial S^2}=rV$$
 
 ## Approximation for the derivative
 
