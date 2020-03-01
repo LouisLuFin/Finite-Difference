@@ -40,9 +40,9 @@ Central approximation for the derivative:$$<img src="http://latex.codecogs.com/g
 
 Central approximation for partial derivative: $$<img src="http://latex.codecogs.com/gif.latex? \frac{\partial \phi}{\partial t}=\frac{\phi_{i,j+1} -\phi_{i,j-1}}{2dt}" />
 
-Second-order derivatives approximation:$$<img src="http://latex.codecogs.com/gif.latex? f''(x)=\frac{f(x+h)-2f(x)+f(x-h)}{h^2}+O(h^2)" />
+Second-order derivatives approximation:<img src="http://latex.codecogs.com/gif.latex?f''(x)=\frac{f(x+h)-2f(x)+f(x-h)}{h^2}+O(h^2)" />
 
-Second-order partial derivative:$$<img src="http://latex.codecogs.com/gif.latex? \frac{\partial^2 \phi}{\partial x^2}=\frac{\phi_{i+1,j+} -2\phi_{i,j}+\phi_{i-1,j}}{(dx)^2}" />
+Second-order partial derivative:<img src="http://latex.codecogs.com/gif.latex?\frac{\partial^2 \phi}{\partial x^2}=\frac{\phi_{i+1,j+} -2\phi_{i,j}+\phi_{i-1,j}}{(dx)^2}" />
 
 ##  Schemes
 
