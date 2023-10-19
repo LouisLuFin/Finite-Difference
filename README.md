@@ -1,6 +1,6 @@
 # A MATLAB and Python implementation of Finite Difference method for Heat and Black-Scholes Partial Differential Equation
 
-These code implements the numerical method of Finite Difference method to solve Heat PDE and Black-Scholes PDE. Specificly, the code for Black-Scholes PDE aims to price vanilla options such as European and American call and put. 
+These codes implement the numerical method of Finite Difference method to solve Heat PDE and Black-Scholes PDE. Specificly, the code for Black-Scholes PDE aims to price vanilla options such as European and American call and put. 
 
 The algorithm is implemented in Python and MATLAB, and the Python code is in Object Oriented discipline and used Numpy to handle matrices. Also, both Python and MATLAB code allow users to write their own function to put into the code to set boundary conditions for the Finite difference grid. The code provided sample user-generated function for setting boundary condition for both Python code and MATLAB code. The Python objects also implemented  special methods in Python classes so as to make it sliceable (`__getitem__()`)and printable(`__repr__()`)
 
